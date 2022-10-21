@@ -1,0 +1,72 @@
+<html>
+
+    <head>
+        <title>Project-93</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body id="main_pg">
+
+     <center>
+
+    <h1><b>FACE RECOGNITION APP</b></h1>
+
+    <br>
+
+    <h3><b>Select any one of these celebrities below</b></h3>
+
+    <br>
+
+    <b>
+
+    <hr class="line">
+    <h4>Chris Evans</h4>
+    <hr class="line">
+    <h4>Tom holland</h4>
+    <hr class = "line">
+    <h4>Robert Downy Jr.</h4>
+    <hr class = "line">
+    <h4>Benedict Cumberbatch</h4>
+    <hr class = "line">
+    <h4>Joe Keery</h4>
+    <hr class = "line">
+    <h4>Mathew Perry</h4>
+    <hr class="line">
+
+    </b>
+     
+    <br>
+ 
+    <h3>Your Webcame: </h3>
+
+    <div id="camera"></div>
+    <br>
+    <div>
+        <button onclick="capture()" class="btn btn-success">Take Photo</button>
+    </div>
+    <br>
+
+    <h3>Your Photo: </h3>
+
+    <div id="result"></div>
+    <br> 
+
+    <div> 
+         <button onclick="check()" class="btn btn-success">Identify</button>
+    </div>
+
+    <br>
+    <br>
+
+    <h4>The person is: </h4> <span id = "identity"></span>
+    <h4>Accuracy: </h4> <span id="accuracy"></span>
+     </center>
+    </body>
+
+</html>
